@@ -20,3 +20,6 @@ Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
+
+# Local skills
+.kilocode/skills/
