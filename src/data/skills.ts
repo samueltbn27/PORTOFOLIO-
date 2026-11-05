@@ -3,17 +3,14 @@ import {
   BarChart3,
   Brain,
   Clock,
-  Code2,
   Cpu,
   Database,
   Eye,
   FileSpreadsheet,
-  Layers,
   MessageSquare,
   Search,
   Server,
-  Users,
-  Wrench
+  Users
 } from 'lucide-react'
 import {
   SiBootstrap,
@@ -24,7 +21,9 @@ import {
   SiFigma,
   SiGit,
   SiGithub,
+  SiHtml5,
   SiJavascript,
+  SiJupyter,
   SiLaravel,
   SiMysql,
   SiNodedotjs,
@@ -65,7 +64,7 @@ export const skillCategories: SkillCategory[] = [
   {
     id: 'languages',
     label: 'Programming Languages',
-    icon: Code2,
+    icon: SiPython,
     skills: [
       { name: 'Python', icon: SiPython },
       { name: 'SQL', icon: Database },
@@ -77,7 +76,7 @@ export const skillCategories: SkillCategory[] = [
   {
     id: 'web',
     label: 'Web Development',
-    icon: Layers,
+    icon: SiHtml5,
     skills: [
       { name: 'HTML', icon: HtmlIcon },
       { name: 'CSS', icon: SiCss },
@@ -94,7 +93,7 @@ export const skillCategories: SkillCategory[] = [
   {
     id: 'data',
     label: 'Data Analysis',
-    icon: BarChart3,
+    icon: SiJupyter,
     skills: [
       { name: 'Microsoft Excel', icon: FileSpreadsheet },
       { name: 'Google Sheets', icon: FileSpreadsheet },
@@ -107,7 +106,7 @@ export const skillCategories: SkillCategory[] = [
   {
     id: 'tools',
     label: 'Tools & Technologies',
-    icon: Wrench,
+    icon: SiGit,
     skills: [
       { name: 'Git', icon: SiGit },
       { name: 'GitHub', icon: SiGithub },

@@ -72,8 +72,8 @@ export default function Projects() {
                     <div
                       className={`absolute inset-0 bg-gradient-to-br ${project.color} opacity-60 transition-transform duration-500 group-hover:scale-105`}
                     >
-                      <div className="absolute inset-0 flex items-end justify-end p-4">
-                        <div className="w-3/4 rounded-lg border border-white/25 bg-black/20 p-3 backdrop-blur-sm">
+                      <div className="absolute inset-0 flex items-end justify-end p-3 sm:p-4">
+                        <div className="w-2/3 rounded-lg border border-white/25 bg-black/20 p-2.5 backdrop-blur-sm sm:w-3/4 sm:p-3">
                           <div className="mb-2 flex gap-1">
                             <span className="h-1.5 w-1.5 rounded-full bg-white/70" />
                             <span className="h-1.5 w-1.5 rounded-full bg-white/50" />
@@ -84,11 +84,11 @@ export default function Projects() {
                             <div className="h-1 w-1/2 rounded bg-white/30" />
                           </div>
                           <div className="mt-3 flex items-end gap-1">
-                            <div className="h-4 w-2 rounded-sm bg-white/70" />
-                            <div className="h-7 w-2 rounded-sm bg-white/80" />
-                            <div className="h-5 w-2 rounded-sm bg-white/60" />
-                            <div className="h-9 w-2 rounded-sm bg-white/90" />
-                            <div className="h-6 w-2 rounded-sm bg-white/65" />
+                            <div className="h-3 w-1.5 rounded-sm bg-white/70 sm:h-4 sm:w-2" />
+                            <div className="h-5 w-1.5 rounded-sm bg-white/80 sm:h-7 sm:w-2" />
+                            <div className="h-4 w-1.5 rounded-sm bg-white/60 sm:h-5 sm:w-2" />
+                            <div className="h-6 w-1.5 rounded-sm bg-white/90 sm:h-9 sm:w-2" />
+                            <div className="h-4 w-1.5 rounded-sm bg-white/65 sm:h-6 sm:w-2" />
                           </div>
                         </div>
                       </div>

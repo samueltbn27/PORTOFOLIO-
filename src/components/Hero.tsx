@@ -58,7 +58,7 @@ export default function Hero() {
 
   return (
     <section id="home" className="relative flex min-h-screen items-center overflow-hidden pt-24 pb-20">
-      <div className="mx-auto grid w-full max-w-6xl items-center gap-14 px-4 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:px-8">
+      <div className="mx-auto grid w-full max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[1.2fr_0.8fr] lg:gap-14 lg:px-8">
         {/* Kiri */}
         <div className="order-2 lg:order-1">
           <motion.p
@@ -155,7 +155,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="order-1 flex justify-center lg:order-2"
         >
-          <div className="relative w-full max-w-[320px]">
+          <div className="relative w-full max-w-[260px] sm:max-w-[320px]">
             <div className="border border-[var(--border)] bg-[var(--surface)] backdrop-blur-md">
               <div className="flex aspect-square items-center justify-center overflow-hidden">
                 {profile.avatar ? (
